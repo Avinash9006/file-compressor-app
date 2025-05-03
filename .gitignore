@@ -1,0 +1,46 @@
+# === Node.js (React Frontend) ===
+frontend/sizemaster/node_modules/
+frontend/sizemaster/build/
+frontend/sizemaster/.env
+
+# === Python (FastAPI server) ===
+server/venv/
+server/__pycache__/
+server/*.pyc
+server/*.pyo
+server/*.pyd
+server/.env
+server/converted/
+server/uploads/
+
+# === General System Files ===
+.DS_Store
+Thumbs.db
+*.log
+
+# === Python Bytecode and Cache Files (anywhere) ===
+**/__pycache__/
+**/*.py[cod]
+
+# === Virtual Environments (if not in server folder) ===
+env/
+venv/
+ENV/
+
+# === IDEs and Editor Settings ===
+.vscode/
+.idea/
+*.swp
+
+# === Mac and Linux File Metadata ===
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Windows File Metadata ===
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# === Git Files ===
+*.orig
