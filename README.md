@@ -38,12 +38,12 @@ A full-stack web app built with **React** and **FastAPI** that allows users to:
 
 ```
 project-root/
-├── frontend/           # React frontend
+├── frontend/sizemaster/           # React frontend
 │   ├── public/
 │   ├── src/
 │   └── ...
 │
-├── backend/            # FastAPI backend
+├── backend/                       # FastAPI backend
 │   ├── main.py
 │   └── utils/
 │       └── compress.py
